@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster%7COpen+Sans" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Bestest Way to Camp</title>
   </head>
@@ -201,10 +201,14 @@
               <span class="carousel-control-next-icon"></span>
               <span class="sr-only">Next</span>
             </a>
+              <button class="btn btn-danger btn-sm" id="carouselButton">
+                  <i class="fa fa-pause"></i>
+              </button>
           </div>
         </div>
       </div>
     </div>
+    
       
       <div class="container">
         <div class="row row-content align-items-center">
@@ -224,36 +228,37 @@
             </div>
           </div>
         </div>
+      
+
+        <div class="row row-content align-items-center">
+          <div class="col-sm-4 col-md-3">
+              <h2>Featured Campsites</h2>
+          </div>
+          <div class="col">
+              <div class="media">
+                  <div class="media-body align-self-center">
+                      <h3>React Lake Campground</h3>
+                      <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                  </div>
+                  <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake Image" />
+              </div>           
+          </div>
       </div>
 
-      <div class="row row-content align-items-center">
-        <div class="col-sm-4 col-md-3">
-            <h2>Featured Campsites</h2>
-        </div>
-        <div class="col">
+        <div class="row row-content align-items-center">
+          <div class="col-sm-4 order-sm-last col-md-3">
+            <h2 class="text-sm-right">Our Community Partners</h2>
+          </div>
+          <div class="col">
             <div class="media">
-                <div class="media-body align-self-center">
-                    <h3>React Lake Campground</h3>
-                    <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-                </div>
-                <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake Image" />
-            </div>           
-        </div>
-    </div>
-
-      <div class="row row-content align-items-center">
-        <div class="col-sm-4 order-sm-last col-md-3">
-          <h2 class="text-sm-right">Our Community Partners</h2>
-        </div>
-        <div class="col">
-          <div class="media">
-            <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
-            <div class="media-body align-self-center">
-              <h3>Bootstrap Outfitters</h3>
-              <p class="d-none d-sm-block">
-                Bootstrap Outfitters supplies you with gear you need at prices you
-                can't beat.
-              </p>
+              <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
+              <div class="media-body align-self-center">
+                <h3>Bootstrap Outfitters</h3>
+                <p class="d-none d-sm-block">
+                  Bootstrap Outfitters supplies you with gear you need at prices you
+                  can't beat.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -291,6 +296,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <script src="js/scripts.js"></script>
   
   </body>
 </html>
